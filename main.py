@@ -9,7 +9,7 @@ class Team:
         shuffle(self.players)
 
     def __str__(self):
-        return f"{self.players[0]}-{self.players[1]}"
+        return f"<{self.players[0]}>-<{self.players[1]}>"
 
 
 class Match:
@@ -22,7 +22,7 @@ class Match:
 
 
 if __name__ == '__main__':
-    # Constants that the user has to run
+    # Constants that the user can change to adapt to league needs
 
     matches_per_player = 20
 
